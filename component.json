@@ -1,0 +1,31 @@
+{
+  "name": "ember-collection",
+  "version": "2.11.0",
+  "dependencies":{
+    "kelonye/ember":"2.11.0"
+  },
+  "main": "lib/index.js",
+  "scripts": [
+    "lib/index.js",
+    "lib/ember-collection/index.js",
+    "lib/ember-native-scrollable.js",
+    "lib/layout-bin-packer/bin.js",
+    "lib/layout-bin-packer/entry.js",
+    "lib/layout-bin-packer/fixed-grid.js",
+    "lib/layout-bin-packer/shelf-first.js",
+    "lib/layouts/grid.js",
+    "lib/layouts/mixed-grid.js",
+    "lib/layouts/percentage-columns.js",
+    "lib/utils/identity.js",
+    "lib/utils/needs-revalidate.js",
+    "lib/utils/style-generators.js",
+    "lib/utils/style-properties.js",
+    "lib/utils/translate.js"
+  ],
+  "jhbs": [
+    "lib/ember-collection/template"
+  ],
+  "files": [
+    "lib/ember-collection/template.jade"
+  ]
+}
